@@ -27,7 +27,7 @@ data = [
 ]
 
 # create unique filename based on the datetime
-filename = str(time) + ".csv"
+filename = "./" + str(time) + ".csv"
 
 # write to csv
 with open(filename, "w", newline="") as f:
